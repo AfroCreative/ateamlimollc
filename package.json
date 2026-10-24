@@ -1,0 +1,11 @@
+{
+  "name": "ateamlimollc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Team Limo LLC: limo service website for Columbus, Ohio",
+  "scripts": {
+    "build": "node src/build.js",
+    "images": "node src/make-images.js",
+    "serve": "npx --yes serve public -l 8080"
+  }
+}
